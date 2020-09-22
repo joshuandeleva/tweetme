@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__logo {
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+}
+.header__HomeAreaTitle {
+	font-weight: 700;
+	font-size: larger !important;
+}
+.header__input input {
+	border: 0;
+	border-radius: 20px;
+	padding: 12px 50px;
+	background-color: #253341;
+}
+.header__searchIcon {
+	float: left;
+	position: relative;
+	align-items: center;
+	color: #7f909d;
+	margin-right: -70px;
+	padding: 8px 8px 0;
+}
